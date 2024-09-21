@@ -28,7 +28,7 @@ struct Cards {
 };
 
 int main()  {
-    struct Rectanhle r1 = {10,5};
+    struct Rectangle r1 = {10,5};
     cout << "Hello World";
     cout << sizeof(r1);
     return 0;
