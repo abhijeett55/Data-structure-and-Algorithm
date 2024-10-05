@@ -7,6 +7,7 @@ class increm {
     private:
     int num;
     public : 
+    
     increm (int n) : num(n) {
     }
 };
