@@ -11,17 +11,21 @@ int main() {
     mp["three"] = 3;
     mp["four"] = 4;
 
+
+    // Iteration though the Map 
+
     map <string, int> ::iterator itr = mp.begin();
     while (itr != mp.end()) 
     {
         cout << "Key is : " << itr-> first << " Value is : " << itr-> second <<endl;
         itr++;
     }
+    // The Size of the map 
 
     cout << "The Size of Map is : " << mp.size() <<endl;
 
 
-
+    // Insert Pair function in the map
     map <int, int> map1;
     map1.insert(pair<int, int>(1,40));
     map1.insert(pair<int, int>(2,30));
@@ -38,6 +42,8 @@ int main() {
         cout << '\t' << it ->first << '\t' << it->second <<"\n";
     }
     cout << endl;
+
+    // Begin and End elements of the function
 
     map <int, int> map2(map1.begin(), map1.end());
 
@@ -57,10 +63,10 @@ int main() {
         cout << "\t" << it -> first << "\t" << it -> second << "\n";
     }
 
-
+    // erase function in the map
     int num;
     num = map2.erase(4);
-    cout << "\n map2.earse(4) : ";
+    cout << "\n map2.erase(4) : ";
     cout << num << "removed \n";
 
     cout << "\t Key Elements\n";
