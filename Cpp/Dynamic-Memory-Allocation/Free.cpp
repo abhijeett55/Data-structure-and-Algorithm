@@ -1,3 +1,5 @@
+//Dynamically de-allocates the Memory
+
 #include <iostream>
 #include <stdio.h>
 
@@ -17,11 +19,11 @@ int main() {
         exit(0);
     }
     else{ 
-        cout << "Dynamically Memory Alloated using Malloc\n";
+        cout << "Dynamically Memory Allocated using Malloc\n";
         free(ptr);
         cout << "The Malloc Memory is Freed\n";
 
-        cout << "Dynamically Memory Alloated using Calloc\n";
+        cout << "Dynamically Memory Allocated using Calloc\n";
 
         free(ptr1);
         cout << "The Calloc Memory is Freed\n";

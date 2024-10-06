@@ -14,11 +14,11 @@ int main() {
     ptr = (int *)malloc(n * sizeof(n));
 
     if (ptr ==  NULL) {
-        cout << "Memory cann't be Allocated\n";
+        cout << "Memory can't be Allocated\n";
         exit(0);
     }
     else {
-        cout << "Print Succesfully Allocated\n";
+        cout << "Print Successfully Allocated\n";
         for (i = 0; i < n ; i++) {
             ptr[i] = i + 1;
         }
