@@ -15,6 +15,7 @@ int main() {
 
     if (ptr ==  NULL) {
         cout << "Memory cann't be Allocated\n";
+        exit(0);
     }
     else {
         cout << "Print Succesfully Allocated\n";
