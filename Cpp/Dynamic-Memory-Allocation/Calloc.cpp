@@ -27,4 +27,5 @@ int main() {
             cout << ptr[i] << " ";
         }
     }
+    return 0;
 }
