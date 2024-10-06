@@ -21,6 +21,8 @@ int main() {
     }
     cout << endl;
 
+    // Adding elements
+
     for (int i = 0; i < 6; i++) {
         pq.push(arr[i]);
     }
