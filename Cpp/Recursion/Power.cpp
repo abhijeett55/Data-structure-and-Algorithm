@@ -2,16 +2,16 @@
 using namespace std;
 
 int power(int n , int m) {
-    if(n ==0) {
+    if(n == 0) {
         return 1;
-    }
+    } 
     else {
         return power(m, n-1)*m;
     }
 }
 
 int power1(int n , int m) {
-    if (n ==0 ){
+    if (n == 0 ){
         return 1;
     }
     if(n%2==0)
