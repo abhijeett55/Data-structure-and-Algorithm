@@ -6,7 +6,7 @@ struct Rectangle {
     int breadth;
 };
 
-void initiliaze (struct Rectangle *r, int l , int b) {
+void initialize (struct Rectangle *r, int l , int b) {
     r -> length = l;
     r -> breadth = b;
 } 
@@ -21,8 +21,7 @@ void changeLength (struct Rectangle *r , int l) {
 
 int main() {
 struct Rectangle r;
-initiliaze (&r, 10, 5);
+initialize (&r, 10, 5);
 area (r);
 changeLength(&r, 20);
 cout << area  << endl;
-}
